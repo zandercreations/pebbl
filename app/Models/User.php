@@ -30,7 +30,7 @@ class User extends Authenticatable
      */
     protected $hidden = [
         'password', 
-        'remember_token',
+        'rememberme_token',
     ];
     
     public function getName(){
